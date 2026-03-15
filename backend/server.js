@@ -9,7 +9,9 @@ const rateLimit = require("express-rate-limit");
 const journalRoutes = require("./routes/journal");
 const { errorHandler, notFound } = require("./middleware/errorHandler");
 
-const app = express();
+const app = express();  
+
+app.set("trust proxy", 1);
 
 // ─── Security Middleware ───────────────────────────────────────
 app.use(helmet());
