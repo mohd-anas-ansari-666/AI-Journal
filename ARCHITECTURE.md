@@ -7,16 +7,8 @@
 ## System Overview
 
 ```
-┌────────────────────┐       ┌─────────────────────────────────────────┐
-│   React Frontend   │──────▶│         Node.js + Express API           │
-│  (CRA, port 3000)  │◀──────│              (port 5000)                │
-└────────────────────┘       └──────────┬──────────────┬───────────────┘
-                                         │              │
-                              ┌──────────▼───┐   ┌──────▼──────────┐
-                              │   MongoDB    │   │  Google Gemini  │
-                              │  (journal +  │   │   1.5 Flash     │
-                              │   cache DBs) │   │  (LLM API)      │
-                              └──────────────┘   └─────────────────┘
+![alt text](<System_Overview.drawio.png>)
+
 ```
 
 ### Data Flow for Analyze
