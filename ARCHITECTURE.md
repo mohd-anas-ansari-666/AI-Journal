@@ -6,10 +6,7 @@
 
 ## System Overview
 
-```
 ![alt text](System_Overview.drawio.png)
-
-```
 
 ### Data Flow for Analyze
 
